@@ -9,9 +9,16 @@
   </head>
 
   <body>
-    <div id="#app">{{message}}</div>
+    <div id="#app">
+      <span>{{message}}</span>
+      <p>---------------</p>
+      <input v-model="inputValue" type="text" />
+      <span>这是 input 里的值：{{inputValue}}</span>
+    </div>
+
     <script src="./src/Watcher.js" charset="utf-8"></script>
     <script src="./src/Subject.js" charset="utf-8"></script>
+    <script src="./src/Compile.js" charset="utf-8"></script>
     <script src="./src/Vue.js" charset="utf-8"></script>
     <script src="./test/index.js" charset="utf-8"></script>
   </body>

@@ -1,6 +1,7 @@
 (function () {
   const vue = new Vue('#app', {
     message: 1,
+    inputValue: 'haha'
   })
 
 
