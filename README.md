@@ -1,4 +1,4 @@
-练习 defineProperty ，简单的实现 MVVM 的原理，目前只实现单项数据流， = =
+练习 defineProperty ，简单的实现 MVVM 的原理 = =
 
 [MDN defienProperty 指引](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Object/defineProperty)
 
